@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <test thread-count="5" name="TC003_LoginIntoSurveryMonkeyApplication(failed)">
+    <classes>
+      <class name="regressionSuit.TC003_LoginIntoSurveryMonkeyApplication">
+        <methods>
+          <include name="loginIntoApplication"/>
+        </methods>
+      </class> <!-- regressionSuit.TC003_LoginIntoSurveryMonkeyApplication -->
+    </classes>
+  </test> <!-- TC003_LoginIntoSurveryMonkeyApplication(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
